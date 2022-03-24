@@ -243,6 +243,10 @@ nav .fa {
     text-align: center;
     padding-top: 100px;
 }
+.information h1 {
+    background-color: rgba(40,40,40,0.7);
+    border-radius: 50px;
+}
 .information1 {
     width: 80%;
     margin: auto;
@@ -299,6 +303,10 @@ h3 {
     text-align: center;
     padding-top: 50px;
 }
+.stuff h1 {
+    background-color: rgba(40,40,40,0.7);
+    border-radius: 50px;
+}
 .stuff-col {
     flex-basis: 32%;
     border-radius: 10px;
@@ -350,6 +358,10 @@ h3 {
     text-align: center;
     padding-top: 100px;
 }
+.others h1 {
+    background-color: rgba(40,40,40,0.7);
+    border-radius: 50px;
+}
 .others-col {
     flex-basis: 31%;
     border-radius: 10px;
@@ -378,6 +390,13 @@ h3 {
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
+}
+.cta-col h1 {
+    background-color: rgba(40,40,40,0.7);
+    border-radius: 50px;
+}
+.cta-col {
+    text-align: center;
 }
 .cta h3 {
     color: rgb(115, 85, 255);

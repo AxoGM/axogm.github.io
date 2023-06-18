@@ -56,8 +56,14 @@ body {
 .body1 {
     background-color: rgb(30, 0, 0);
 }
+.body2 {
+    background-color: rgb(219, 210, 5);
+}
 .p1 {
     color: #ffb5b0;
+}
+.p2 {
+    color: #eaff00;
 }
 .header {
     min-height: 100vh;
@@ -95,6 +101,14 @@ body {
     min-height: 30vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header5 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(57, 57, 34, 0.7),rgba(28, 30, 4, 0.7)), url(image/Main/6.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -216,6 +230,23 @@ nav img {
     background: #f44336;
     transition: 1s;
 }
+.hero-btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    width: 30%;
+}
+.hero-btn2:hover {
+    border: 1px solid #f4ee36;
+    background: #f4ee36;
+    transition: 1s;
+}
 nav .fa {
     display: none;
 }
@@ -276,6 +307,16 @@ nav .fa {
     width: 50%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
 }
+.information2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    min-height: 25vh;
+    width: 50%;
+    background-image: linear-gradient(rgba(73, 82, 11, 0.7),rgba(87, 96, 12, 0.7));
+    border-radius: 10px;
+}
 h1 {
     font-size: 36px;
     font-weight: 600;
@@ -293,6 +334,17 @@ p {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+.information-col-row {
+    flex-basis: 31%;
+    background: #404040;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 18px 10px;
+    box-sizing: border-box;
+}
+.information-col-row h4 {
+    color: aqua;
 }
 .information-col {
     flex-basis: 31%;
